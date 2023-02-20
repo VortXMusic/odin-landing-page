@@ -11,14 +11,19 @@ a {
     padding: 18px;
 }
 
-.logo {
+.action-description {
     color: #F9FAF8;
     font-size: 24px;
 }
 
+.logo {
+    height: auto;
+    max-width: 50px;
+}
+
 .hero-image {
     height: auto;
-    width: 50%;
+    width: 25%;
     max-width: 40%;
     max-height: auto;
     object-fit: cover;
@@ -36,6 +41,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 20px;
 }
 
 .hero-title {
@@ -53,22 +59,28 @@ a {
     color:#E5E7EB;
 }
 
+.sign-up {
+    max-width: 100px;
+    border: none;
+    padding: 0px;
+}
+
 button {
     background-color: #3882F6;
-    padding: 0px;
-    border: none;
     flex-grow: 0;
-    max-width: 100px;
     color: white;
     padding:8px;
     border-radius: 6px;
+    font-size: 15px;
+    font-weight: 800;
+    height: 40px;
 }
 
 .hero-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:30px;
+    gap:100px;
     padding-bottom:150px ;
 }
 
@@ -97,7 +109,7 @@ button {
     padding: 150px;
 }
 
-.gallery-title {
+.gallery-title, .action-title {
     font-size: 36px;
     font-weight: 900;
     padding: 0px;
@@ -145,4 +157,30 @@ button {
     height: 30px;
     word-wrap: break-word;
     white-space:pre-wrap;
+}
+
+.action {
+    margin: 150px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 30px;
+}
+
+.action-button {
+    border: 2px solid white;
+    max-height: 50px;
+    width: 150px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 50px 0;
+    font-weight: 100;
+    margin: none;
 }
